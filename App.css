@@ -1,0 +1,27 @@
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.booking-form label {
+  margin-bottom: 10px;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"],
+.booking-form input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.booking-form input[type="submit"] {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
